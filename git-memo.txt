@@ -1,0 +1,6 @@
+git init
+git config --global init.defaultBranch main
+git status
+git add readme.md
+git commit -m 'Add readme.md file'
+git add ./
