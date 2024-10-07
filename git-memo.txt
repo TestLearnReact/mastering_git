@@ -23,3 +23,9 @@ git branch new-branch-name source-branch
 git push --set-upstream origin feature-brach / git push -u origin feature-branch 
     (local branch to remote / linking r=l -> git push local to remote) 
 git pull (up to date, maybe has change remote repo)
+
+merge conflicts (1 merged before you)
+git checkout main
+git pull
+git checkout dev-adrian
+git merge main (conflict)
