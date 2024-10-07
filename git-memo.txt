@@ -6,3 +6,16 @@ git commit -m 'Add readme.md file'
 git add ./
 git log (commits) Q exit
 git checkout 006075a805d07f7326ea8c994480351a22c03778
+git checkout main  git checkout -f main (force Änderung verwerfen)
+
+origin = alias https://github.com/TestLearnReact/mastering_git.git
+git branch -M main
+git remote add origin https://github.com/TestLearnReact/mastering_git.git (linking )
+git push -u origin main
+
+-branch different version of project
+-new brach from act branch
+git branch branch-name (neu)
+git checkout branch-name
+git checkout -b feature-branch (creacte,checkout)
+git branch new-branch-name source-branch
