@@ -4,3 +4,5 @@ git status
 git add readme.md
 git commit -m 'Add readme.md file'
 git add ./
+git log (commits) Q exit
+git checkout 006075a805d07f7326ea8c994480351a22c03778
